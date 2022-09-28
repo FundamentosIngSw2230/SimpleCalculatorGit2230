@@ -10,7 +10,7 @@ public class Main {
 		System.out.println(calc.multiply(30, 3));
 
 		System.out.println("- - - - - -");
-		
+			
 		ICalculator ALVACalculator = new CalculadoraALVA();
 		System.out.println("Resultado Suma: " + ALVACalculator.add(50, 10));
 		System.out.println("Resultado Resta: " + ALVACalculator.substract(50, 10));
