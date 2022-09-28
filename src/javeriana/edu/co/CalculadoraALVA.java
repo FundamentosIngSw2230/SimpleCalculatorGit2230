@@ -26,7 +26,7 @@ public class CalculadoraALVA implements ICalculator
         double divideResult = 0;
         try 
         {
-            if (a / b == 0 ) 
+            if (a / b == 0 || a == 0 || b == 0 ) 
             {
                 throw new ArithmeticException("Alerta: Division con resultado zero");
             }
