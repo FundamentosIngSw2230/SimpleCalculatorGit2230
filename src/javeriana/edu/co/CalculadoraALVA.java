@@ -36,6 +36,8 @@ public class CalculadoraALVA implements ICalculator
         {
             System.out.println("Error, dividiste mal. Revisa porfa :D");
         }
+
+        divideResult = a / b;
         return divideResult;
     }
 

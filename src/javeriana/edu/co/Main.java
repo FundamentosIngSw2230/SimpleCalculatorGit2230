@@ -15,6 +15,7 @@ public class Main {
 		System.out.println("Resultado Suma: " + ALVACalculator.add(50, 10));
 		System.out.println("Resultado Resta: " + ALVACalculator.substract(50, 10));
 		System.out.println("Resultado Multiplicacion: " + ALVACalculator.multiply(50, 10));
-		System.out.println("Resultado Division: " + ALVACalculator.divide(50, 0));
+		System.out.println("Resultado Division: " + ALVACalculator.divide(50, 5));
+		System.out.println("Resultado Division (erronea): " + ALVACalculator.divide(50, 0));
 	}
 }
