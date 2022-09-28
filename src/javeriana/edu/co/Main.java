@@ -17,5 +17,13 @@ public class Main {
 		System.out.println("Resultado Multiplicacion: " + ALVACalculator.multiply(50, 10));
 		System.out.println("Resultado Division: " + ALVACalculator.divide(50, 5));
 		System.out.println("Resultado Division (erronea): " + ALVACalculator.divide(50, 0));
+
+
+		ICalculator calculator = new CalculadoraJNRA();
+		System.out.println("suma: "+ CalculadoraJNRA.add(30,20));
+		System.out.println("resta: "+ CalculadoraJNRA.substract(2,10));
+		System.out.println("multiplicacion: "+CalculadoraJNRA.multiply(30,20));
+		System.out.println("division: "+ CalculadoraJNRA.divide(30,5));
+
 	}
 }
