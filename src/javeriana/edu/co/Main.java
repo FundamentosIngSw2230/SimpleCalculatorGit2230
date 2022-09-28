@@ -6,7 +6,7 @@ public class Main {
 		System.out.println(calc.add(20, 2));
 		calc.divide(20, 0);
 		System.out.println(calc.about());
-
+		System.out.println(calc.multiply(30, 3));
 	}
 
 }
