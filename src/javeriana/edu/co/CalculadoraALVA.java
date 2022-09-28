@@ -26,10 +26,13 @@ public class CalculadoraALVA implements ICalculator
         double divideResult = 0;
         try 
         {
-            divideResult = a / b;
+            if (a / b == 0 ) 
+            {
+                throw new ArithmeticException("Alerta: Division con resultado zero");
+            }
         } 
         
-        catch (Exception e) 
+        catch (ArithmeticException error) 
         {
             System.out.println("Error, dividiste mal. Revisa porfa :D");
         }
