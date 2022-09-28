@@ -29,7 +29,6 @@ public class CalculadoraCJMP implements ICalculator {
         double dividir = 0;
 
         try {
-
             dividir = a / b;
             if (b == 0) {
                 throw new ArithmeticException("Division por 0");
