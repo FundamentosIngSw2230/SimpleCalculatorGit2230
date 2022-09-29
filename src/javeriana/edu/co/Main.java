@@ -32,5 +32,18 @@ public class Main {
 		System.out.println("La multiplicacion es: "+CalculadoraJNRA.multiply(8,16));
 		System.out.println("La division es: "+ CalculadoraJNRA.divide(30,0));
 
+
+		ICalculator calculator = new CalculadoraVJPF();
+		System.out.println("Total Suma: "+ CalculadoraVJPF.add(40,2));
+		System.out.println("Total Resta: "+ CalculadoraVJPF.substract(30,15));
+		System.out.println("Total Multiplicacion: "+CalculadoraVJPF.multiply(30,50));
+		System.out.println("Total Division: "+ CalculadoraVJPF.divide(24,12));
+		
+		ICalculator JEBMcal = new CalculadoraJEBM();
+		System.out.println("addition: "+ JEBMcal.add(34, 62));
+		System.out.println("susbtraction: "+ JEBMcal.substract(45, 23));
+		System.out.println("product: "+ JEBMcal.multiply(34, 12));
+		System.out.println("division: "+ JEBMcal.divide(340, 12));
+		System.out.println(JEBMcal.about());
 	}
 }
