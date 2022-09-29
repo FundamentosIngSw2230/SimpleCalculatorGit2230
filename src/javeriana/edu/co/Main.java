@@ -25,5 +25,12 @@ public class Main {
 		System.out.println("multiplicacion: "+CalculadoraJNRA.multiply(30,20));
 		System.out.println("division: "+ CalculadoraJNRA.divide(30,5));
 
+
+		ICalculator calculatorSARA = new CalculadoraSARA();
+		System.out.println("La suma es: "+ CalculadoraJNRA.add(10,20));
+		System.out.println("La resta es: "+ CalculadoraJNRA.substract(20,45));
+		System.out.println("La multiplicacion es: "+CalculadoraJNRA.multiply(8,16));
+		System.out.println("La division es: "+ CalculadoraJNRA.divide(30,0));
+
 	}
 }
