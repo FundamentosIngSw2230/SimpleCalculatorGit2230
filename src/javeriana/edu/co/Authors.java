@@ -7,5 +7,6 @@ public class Authors {
 	public static final String MJGG = "Majo Gomez";
 	public static final String ALVA = "Alberto Vigna";
 	public static final String JNRA = "Juan Nicolas Rivera";
-	public static final String SARA = "Santiago Riveros Abondano"
+	public static final String SARA = "Santiago Riveros Abondano";
+	public static final String JEBM = "Juan Esteban Buitrago Mendivelso";
 }
