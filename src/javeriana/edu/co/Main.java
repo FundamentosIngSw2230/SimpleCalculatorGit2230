@@ -45,5 +45,12 @@ public class Main {
 		System.out.println("product: "+ JEBMcal.multiply(34, 12));
 		System.out.println("division: "+ JEBMcal.divide(340, 12));
 		System.out.println(JEBMcal.about());
+
+		ICalculator CalculatorLukas = new CalculadoraLFRP();
+		System.out.println("addition: "+ CalculadoraLFRP.add(35, 50));
+		System.out.println("susbtraction: "+ CalculadoraLFRP.substract(23, 25));
+		System.out.println("product: "+ CalculadoraLFRP.multiply(89, 42));
+		System.out.println("division: "+ CalculadoraLFRP.divide(31, 56));
+		System.out.println(CalculadoraLFRP.about());
 	}
 }
